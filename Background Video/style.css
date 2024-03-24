@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#myvid{
+    position: fixed;
+    right: 0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+}
+
+#mybtn{
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #1e1e1e;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+#mybtn:hover{
+    background-color: #1e1e1e;
+    color: whitesmoke;
+}
+
